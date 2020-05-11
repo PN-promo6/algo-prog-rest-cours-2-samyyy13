@@ -9,6 +9,7 @@ import { DataService } from '../services/data-service/data.service'
 export class UsersListComponent implements OnInit {
 
   users: any;
+  posts: any;
 
   constructor(private dataService: DataService) { }
 
